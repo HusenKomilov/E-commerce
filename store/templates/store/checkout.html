@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ title }}
+{% endblock title %}
+
+{% block header_text %}
+{% endblock header_text %}
+<!-- HEADER TEXT BLOCK END -->
+
+<!-- HEADER POSTER START -->
+{% block header_poster %}
+{% endblock header_poster %}
+
+{% block main %}
+<section class="h-100 h-custom" style="background-color: #d2c9ff;">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12">
+                <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+                    <div class="card-body">
+                        <div class="row g-0">
+                            <div class="col-8">
+                                <div>
+                                    <div class="d-flex justify-content-between align-items-center mb-5">
+                                        <h1 class="fw-bold mb-0 text-black">Shopping Cart</h1>
+                                        <div>
+                                            <h5 class="mb-1 text-muted">Umumiy soni: {{ order.get_cart_total_quantity }}</h5>
+                                            <h5 class="mb-0 text-muted">Umumiy narxi: {{ order.get_cart_total_price }}$</h5>
+                                        </div>
+                                    </div>
+                                    {% for item in items %}
+                                    {% include 'store/components/_cart_row.html' %}
+                                    {% endfor %}
+
+                                    <hr class="my-4">
+                                    <div class="pt-5">
+                                        <h6 class="mb-0"><a href="#!" class="text-body"><i
+                                                class="fas fa-long-arrow-alt-left me-2"></i>Back to shop</a></h6>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-4 bg-grey">
+                                <form action="{% url 'payment' %}" method="post" enctype="multipart/form-data">{% csrf_token %}
+                                    <div class="p-5">
+                                        <div id="user-info">
+                                            <hr>
+                                            <h3>Sizning ma'lumotlaringiz</h3>
+                                            <hr>
+                                            <div class="form-field mb-4">
+                                                {{ customer_form.first_name }}
+                                            </div>
+                                            <div class="form-field">
+                                                {{ customer_form.last_name }}
+                                            </div>
+                                        </div>
+                                        <div id="shipping-info">
+                                            <hr>
+                                            <h3>Yetkazib berish manzili</h3>
+                                            {% for field in shipping_form %}
+                                            <div class="from-field mb-4">
+                                                {{ field }}
+                                            </div>
+                                            {% endfor %}
+                                        </div>
+                                        <button type="submit" class="btn btn-success">Buyurtma berish</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+{% endblock main %}

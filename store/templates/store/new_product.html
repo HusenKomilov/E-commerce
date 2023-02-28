@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ title }}
+{% endblock title %}
+
+{% block header_text %}
+{% endblock header_text %}
+<!-- HEADER TEXT BLOCK END -->
+
+<!-- HEADER POSTER START -->
+{% block header_poster %}
+{% endblock header_poster %}
+
+{% block main %}
+<div class="container">
+    <form action="" method="post">{% csrf_token %}
+        {{ form.as_p }}
+        {% if  'edit' in request.path %}
+        <input type="submit" class="btn btn-success" value="Saqlash">
+        {% else %}
+        <input type="submit" class="btn btn-success" value="Qo'shish">
+        {% endif %}
+    </form>
+</div>
+{% endblock main %}

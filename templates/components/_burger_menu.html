@@ -1,0 +1,30 @@
+{% load store_tags %}
+{% load i18n %}
+{% load static %}
+<div class="header_lx-panel">
+    <input type="checkbox" class="toggler">
+    <div class="hamburger">
+        <div></div>
+    </div>
+    <div class="menu">
+        <div>
+            <div>
+                <ul>
+                    <li>
+                        <a class="header_nav-link" href="{% url 'favourite_products' %}"><img src="{% static 'store/images/icons/basket_icon.svg' %}"
+                                                                alt=""></a>
+                    </li>
+                    {% get_categories as categories %}
+                    {% for category in categories %}
+                    <li class="header_nav-item"><a class="header_nav-link" href="">{{ category }}</a></li>
+                    {% endfor %}
+                    {% if request.user.is_authenticated %}
+                    <li class="header_nav-item"><a class="header_nav-link" href="{% url 'logout' %}">{% trans 'EXIT' %}</a></li>
+                    {% else %}
+                    <li class="header_nav-item"><a class="header_nav-link" href="{% url 'login_registration' %}">{% trans 'SIGN UP/LOGIN' %}</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

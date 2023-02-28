@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-16 00:15+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\blogs\settings.py:119
+msgid "Uzbek"
+msgstr "o'zbek tili"
+
+#: .\blogs\settings.py:120
+msgid "Russian"
+msgstr "Rus tili"
+
+#: .\blogs\settings.py:121
+msgid "English"
+msgstr "Ingliz tili"
+
+#: .\store\templates\store\components\_email_form.html:7
+msgid "Become part of us!"
+msgstr "Bizning bir qismimizga aylaning!"
+
+#: .\store\templates\store\components\_email_form.html:9
+msgid "Join us to get discounts, new product releases and new arrivals"
+msgstr "Chegirmalar, yangi mahsulotlar va yangi kelganlarni olish uchun bizga qo'shiling"
+
+#: .\store\templates\store\components\_email_form.html:13
+msgid "Sign In"
+msgstr ""
+
+#: .\store\templates\store\components\_guarantees.html:8
+msgid "Free shipping"
+msgstr "Yetkazib berish bepul"
+
+#: .\store\templates\store\components\_guarantees.html:14
+msgid "30 days return"
+msgstr "30 kun qaytish"
+
+#: .\store\templates\store\components\_guarantees.html:20
+msgid "Two year warranty"
+msgstr "Ikki yillik kafolat"
+
+#: .\store\templates\store\product_list.html:23
+msgid "Hozirda bu kategoriyadagi mahsulotlar tugagan!"
+msgstr ""
+
+#: .\templates\components\_burger_menu.html:22
+#: .\templates\components\_header_nav_menu.html:13
+msgid "EXIT"
+msgstr "Chiqish"
+
+#: .\templates\components\_burger_menu.html:24
+#: .\templates\components\_header_nav_menu.html:15
+msgid "SIGN UP/LOGIN"
+msgstr "Registratsiya/Kirish"
+
+#: .\templates\components\_header_nav_menu.html:10
+msgid "MY CART"
+msgstr "Mening savatim"
+
+#: .\templates\components\_header_text.html:5
+msgid "TOTEMBO"
+msgstr "TOTEMBO"
+
+#: .\templates\components\_header_text.html:6
+msgid "accessories"
+msgstr "aksessuarlar"
+
+#: .\templates\components\_header_text.html:7
+msgid "High quality, woldwide shipping"
+msgstr "Yuqori sifatli, butun dunyo bo'ylab etkazib berish"
+
+#: .\templates\layout\footer.html:9
+msgid "Shop Totembo"
+msgstr "Totembo xarid qiling"
+
+#: .\templates\layout\footer.html:12
+msgid "Shop"
+msgstr "Do'kon"
+
+#: .\templates\layout\footer.html:56
+msgid "Customer Service"
+msgstr "Mijozlarga xizmat ko'rsatish"
+
+#: .\templates\layout\footer.html:57
+msgid "Privacy Policy"
+msgstr "Maxfiylik siyosati"
+
+#: .\templates\layout\footer.html:58
+msgid "My Account"
+msgstr "Mening hisobim"
+
+#: .\templates\layout\footer.html:59
+msgid "Contact Us"
+msgstr "Biz bilan bog'lanish"
+
+#: .\templates\layout\footer.html:60
+msgid "FAQ"
+msgstr "TSS"

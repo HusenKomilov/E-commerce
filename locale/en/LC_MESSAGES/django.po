@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-16 00:15+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\blogs\settings.py:119
+msgid "Uzbek"
+msgstr ""
+
+#: .\blogs\settings.py:120
+msgid "Russian"
+msgstr ""
+
+#: .\blogs\settings.py:121
+msgid "English"
+msgstr ""
+
+#: .\store\templates\store\components\_email_form.html:7
+msgid "Become part of us!"
+msgstr ""
+
+#: .\store\templates\store\components\_email_form.html:9
+msgid "Join us to get discounts, new product releases and new arrivals"
+msgstr ""
+
+#: .\store\templates\store\components\_email_form.html:13
+msgid "Sign In"
+msgstr ""
+
+#: .\store\templates\store\components\_guarantees.html:8
+msgid "Free shipping"
+msgstr ""
+
+#: .\store\templates\store\components\_guarantees.html:14
+msgid "30 days return"
+msgstr ""
+
+#: .\store\templates\store\components\_guarantees.html:20
+msgid "Two year warranty"
+msgstr ""
+
+#: .\store\templates\store\product_list.html:23
+msgid "Hozirda bu kategoriyadagi mahsulotlar tugagan!"
+msgstr "There are currently no products in this category!"
+
+#: .\templates\components\_burger_menu.html:22
+#: .\templates\components\_header_nav_menu.html:13
+msgid "EXIT"
+msgstr ""
+
+#: .\templates\components\_burger_menu.html:24
+#: .\templates\components\_header_nav_menu.html:15
+msgid "SIGN UP/LOGIN"
+msgstr ""
+
+#: .\templates\components\_header_nav_menu.html:10
+msgid "MY CART"
+msgstr ""
+
+#: .\templates\components\_header_text.html:5
+msgid "TOTEMBO"
+msgstr ""
+
+#: .\templates\components\_header_text.html:6
+msgid "accessories"
+msgstr ""
+
+#: .\templates\components\_header_text.html:7
+msgid "High quality, woldwide shipping"
+msgstr ""
+
+#: .\templates\layout\footer.html:9
+msgid "Shop Totembo"
+msgstr ""
+
+#: .\templates\layout\footer.html:12
+msgid "Shop"
+msgstr ""
+
+#: .\templates\layout\footer.html:56
+msgid "Customer Service"
+msgstr ""
+
+#: .\templates\layout\footer.html:57
+msgid "Privacy Policy"
+msgstr ""
+
+#: .\templates\layout\footer.html:58
+msgid "My Account"
+msgstr ""
+
+#: .\templates\layout\footer.html:59
+msgid "Contact Us"
+msgstr ""
+
+#: .\templates\layout\footer.html:60
+msgid "FAQ"
+msgstr ""
